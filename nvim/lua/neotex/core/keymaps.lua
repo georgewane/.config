@@ -139,3 +139,6 @@ keymap("n", "K", "gk", opts)
 keymap("v", "J", "gj", opts)
 keymap("v", "K", "gk", opts)
 
+-- Keymaps for Inkspace
+-- keymap("i", "<C-f>", "<Esc>:silent lua vim.cmd(\'.!inkscape-figures create "\'..vim.fn.getline(\'.\')..\'" "\'..vim.b.vimtex.root..\'/figures/"\')<CR><CR>:w<CR>", opts)
+-- keymap("n", "<C-f>", ":silent lua vim.cmd(\'!inkscape-figures edit "\'..vim.b.vimtex.root..\'/figures/" > /dev/null 2>&1 &\')<CR><CR>:redraw!<CR>", opts)
