@@ -14,6 +14,3 @@ if type -q neofetch
 neofetch
 # runs neofetch if installed
 end
-
-set -x PATH $PATH /Library/Frameworks/Python.framework/Versions/3.12/bin
-
