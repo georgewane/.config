@@ -1,7 +1,7 @@
 return {
   "lukas-reineke/indent-blankline.nvim",
   -- dependencies = {},
-  version = "*",
+  version = "3.5.4",
   event = { "BufReadPre", "BufNewFile" },
   config = function()
     require("ibl").setup({

@@ -14,3 +14,6 @@ if type -q neofetch
 neofetch
 # runs neofetch if installed
 end
+
+# Added this because brew asked me to 
+fish_add_path /usr/local/sbin

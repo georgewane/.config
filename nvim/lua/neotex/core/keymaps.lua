@@ -138,4 +138,3 @@ keymap("n", "J", "gj", opts)
 keymap("n", "K", "gk", opts)
 keymap("v", "J", "gj", opts)
 keymap("v", "K", "gk", opts)
-
