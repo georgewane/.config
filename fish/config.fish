@@ -16,4 +16,8 @@ neofetch
 end
 
 # Added this because brew asked me to 
-fish_add_path /usr/local/sbin
+# fish_add_path /usr/local/sbin
+
+# for inkscape
+set -gx PATH /Library/Frameworks/Python.framework/Versions/3.12/bin $PATH
+set -gx PATH /Applications/Inkscape.app/Contents/MacOS $PATH
