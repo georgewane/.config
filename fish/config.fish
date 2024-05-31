@@ -36,3 +36,6 @@ set -gx HOMEBREW_REPOSITORY "/usr/local/Homebrew";
 fish_add_path -gP "/usr/local/bin" "/usr/local/sbin";
 ! set -q MANPATH; and set MANPATH ''; set -gx MANPATH "/usr/local/share/man" $MANPATH;
 ! set -q INFOPATH; and set INFOPATH ''; set -gx INFOPATH "/usr/local/share/info" $INFOPATH;
+
+# setting path for mathematica
+set -gx PATH /Applications/Mathematica.app/Contents/MacOS $PATH
