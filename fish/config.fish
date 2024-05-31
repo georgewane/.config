@@ -39,3 +39,6 @@ fish_add_path -gP "/usr/local/bin" "/usr/local/sbin";
 
 # setting path for mathematica
 set -gx PATH /Applications/Mathematica.app/Contents/MacOS $PATH
+
+# setting path for Texmacs
+set -gx PATH /Applications/TeXmacs.app/Contents/MacOS $PATH
